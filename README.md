@@ -57,7 +57,7 @@ Keeping `Domain` free of framework dependencies makes business logic easy to uni
 ### Run locally
 
 ```bash
-git clone https://github.com/<your-username>/expense-tracker-api.git
+git clone https://github.com/anaspana/expense-tracker-api.git
 cd expense-tracker-api
 dotnet build
 dotnet run --project src/ExpenseTracker.Api
@@ -93,7 +93,7 @@ ExpenseTracker/
 ## Roadmap
 
 - [x] **Phase 1:** solution structure with Clean Architecture layers, health endpoint
-- [ ] **Phase 2:** PostgreSQL via Docker Compose, EF Core model and migrations
+- [x] **Phase 2:** PostgreSQL via Docker Compose, EF Core model and migrations
 - [ ] **Phase 3:** CRUD for categories and expenses
 - [ ] **Phase 4:** JWT authentication, refresh tokens and data ownership
 - [ ] **Phase 5:** filtering, pagination and monthly report
